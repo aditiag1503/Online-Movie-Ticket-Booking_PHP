@@ -1,0 +1,15 @@
+#main
+{
+width:500;
+height:300;	
+margin-top:50;
+margin-left:460;
+border:black dotted 1px;
+border-radius:10px;
+background-color:white;
+
+}
+#main ul
+{
+list-style:none;	
+}

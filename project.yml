@@ -1,0 +1,553 @@
+%YAML 1.1
+---
+# project.admin_master
+-
+  aid: 1
+  id: "admin"
+  password: "admin "
+# project.company_master
+-
+  cid: 1
+  c_name: "inox"
+  c_userid: "inox_admin"
+  c_password: "inox_admin"
+  admin_type: ""
+-
+  cid: 2
+  c_name: "pvr"
+  c_userid: "pvr_admin"
+  c_password: "pvr"
+  admin_type: ""
+-
+  cid: 8
+  c_name: "adlabs"
+  c_userid: "admin_adlabs"
+  c_password: "adlabs_admin"
+  admin_type: ""
+-
+  cid: 10
+  c_name: "gatrode"
+  c_userid: "gatrode_admin"
+  c_password: "gatrode_admin"
+  admin_type: ""
+-
+  cid: 11
+  c_name: "glitz"
+  c_userid: "glitz_admin"
+  c_password: "glitz_admin"
+  admin_type: ""
+# project.movie_master
+-
+  mid: 8
+  company_id: 2
+  screen_id: 16
+  region_id: 1
+  show_time_id: 20
+  movie_name: "tanu weds manu"
+  movie_image: "twd.jpg"
+  movie_type: "current"
+  movie_release_date: "20/6/2015"
+-
+  mid: 9
+  company_id: 2
+  screen_id: 16
+  region_id: 1
+  show_time_id: 21
+  movie_name: "tanu weds manu"
+  movie_image: "twd.jpg"
+  movie_type: "current"
+  movie_release_date: "20/6/2015"
+-
+  mid: 10
+  company_id: 2
+  screen_id: 17
+  region_id: 1
+  show_time_id: 23
+  movie_name: "jurassic world"
+  movie_image: "Jurassic_World_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "5/7/2015"
+-
+  mid: 11
+  company_id: 2
+  screen_id: 17
+  region_id: 1
+  show_time_id: 24
+  movie_name: "jurassic world"
+  movie_image: "Jurassic_World_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "5/7/2015"
+-
+  mid: 12
+  company_id: 1
+  screen_id: 21
+  region_id: 1
+  show_time_id: 26
+  movie_name: "dil dhadakne do"
+  movie_image: "ddd.jpg"
+  movie_type: "current"
+  movie_release_date: "5/6/2015"
+-
+  mid: 13
+  company_id: 1
+  screen_id: 21
+  region_id: 1
+  show_time_id: 27
+  movie_name: "dil dhadakne do"
+  movie_image: "ddd.jpg"
+  movie_type: "current"
+  movie_release_date: "5/6/2015"
+-
+  mid: 14
+  company_id: 1
+  screen_id: 22
+  region_id: 1
+  show_time_id: 29
+  movie_name: "tanu weds manu"
+  movie_image: "twd.jpg"
+  movie_type: "current"
+  movie_release_date: "20/6/2015"
+-
+  mid: 15
+  company_id: 1
+  screen_id: 22
+  region_id: 1
+  show_time_id: 30
+  movie_name: "tanu weds manu"
+  movie_image: "twd.jpg"
+  movie_type: "current"
+  movie_release_date: "20/6/2015"
+-
+  mid: 16
+  company_id: 1
+  screen_id: 22
+  region_id: 1
+  show_time_id: 28
+  movie_name: "tanu weds manu"
+  movie_image: "twd.jpg"
+  movie_type: "current"
+  movie_release_date: "20/6/2015"
+-
+  mid: 17
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 31
+  movie_name: "minions"
+  movie_image: "Minions-Movie-2015.jpg"
+  movie_type: "upcoming"
+  movie_release_date: "15-07-2015"
+-
+  mid: 18
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 32
+  movie_name: "minions"
+  movie_image: "Minions-Movie-2015.jpg"
+  movie_type: "upcoming"
+  movie_release_date: "15-07-2015"
+-
+  mid: 19
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 33
+  movie_name: "minions"
+  movie_image: "Minions-Movie-2015.jpg"
+  movie_type: "upcoming"
+  movie_release_date: "15-07-2015"
+-
+  mid: 20
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 31
+  movie_name: "insidious-chapter 3"
+  movie_image: "Insidious_–_Chapter_3_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "20-06-2015"
+-
+  mid: 21
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 32
+  movie_name: "insidious-chapter 3"
+  movie_image: "Insidious_–_Chapter_3_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "20-06-2015"
+-
+  mid: 22
+  company_id: 11
+  screen_id: 24
+  region_id: 3
+  show_time_id: 33
+  movie_name: "insidious-chapter 3"
+  movie_image: "Insidious_–_Chapter_3_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "20-06-2015"
+-
+  mid: 23
+  company_id: 11
+  screen_id: 25
+  region_id: 7
+  show_time_id: 34
+  movie_name: "hamari adhuri kahani"
+  movie_image: "Hamari_Adhuri_Kahani_official_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "12-06-2015"
+-
+  mid: 24
+  company_id: 11
+  screen_id: 25
+  region_id: 7
+  show_time_id: 35
+  movie_name: "hamari adhuri kahani"
+  movie_image: "Hamari_Adhuri_Kahani_official_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "12-06-2015"
+-
+  mid: 25
+  company_id: 11
+  screen_id: 25
+  region_id: 7
+  show_time_id: 36
+  movie_name: "hamari adhuri kahani"
+  movie_image: "Hamari_Adhuri_Kahani_official_poster.jpg"
+  movie_type: "current"
+  movie_release_date: "12-06-2015"
+-
+  mid: 26
+  company_id: 2
+  screen_id: 17
+  region_id: 1
+  show_time_id: 23
+  movie_name: "ABCD 2"
+  movie_image: "abcd2.jpg"
+  movie_type: "upcoming"
+  movie_release_date: "10-07-2015"
+# project.region_master
+-
+  rid: 1
+  rname: "hyderabad"
+-
+  rid: 2
+  rname: "goa"
+-
+  rid: 3
+  rname: "pune"
+-
+  rid: 4
+  rname: "raipur"
+-
+  rid: 7
+  rname: "banglore"
+-
+  rid: 8
+  rname: "bhilai"
+# project.reservation_master
+-
+  resid: 108
+  screen_id: 22
+  company_id: 1
+  show_time_id: 29
+  ticket_type_id: 20
+  movie_name: "tanu weds manu"
+  movie_date: 1
+  seat_quantity: 100
+-
+  resid: 109
+  screen_id: 22
+  company_id: 1
+  show_time_id: 29
+  ticket_type_id: 20
+  movie_name: "tanu weds manu"
+  movie_date: 2
+  seat_quantity: 20
+-
+  resid: 110
+  screen_id: 22
+  company_id: 1
+  show_time_id: 29
+  ticket_type_id: 20
+  movie_name: "tanu weds manu"
+  movie_date: 3
+  seat_quantity: 90
+-
+  resid: 111
+  screen_id: 22
+  company_id: 1
+  show_time_id: 29
+  ticket_type_id: 20
+  movie_name: "tanu weds manu"
+  movie_date: 2
+  seat_quantity: 0
+# project.screen_master
+-
+  sid: 16
+  region_id: 1
+  company_id: 2
+  screen_name: "p1_hyd"
+-
+  sid: 17
+  region_id: 1
+  company_id: 2
+  screen_name: "p2_hyd"
+-
+  sid: 18
+  region_id: 4
+  company_id: 2
+  screen_name: "p1_raipur"
+-
+  sid: 19
+  region_id: 8
+  company_id: 2
+  screen_name: "p1_bhilai"
+-
+  sid: 20
+  region_id: 7
+  company_id: 2
+  screen_name: "p1_banglore"
+-
+  sid: 21
+  region_id: 1
+  company_id: 1
+  screen_name: "inox_hyd1"
+-
+  sid: 22
+  region_id: 1
+  company_id: 1
+  screen_name: "inox_hyd2"
+-
+  sid: 23
+  region_id: 2
+  company_id: 11
+  screen_name: "glitz_goa1"
+-
+  sid: 24
+  region_id: 3
+  company_id: 11
+  screen_name: "glitz_pune1"
+-
+  sid: 25
+  region_id: 7
+  company_id: 11
+  screen_name: "glitz_banglore"
+# project.show_time_master
+-
+  stid: 19
+  screen_id: 16
+  region_id: 1
+  company_id: 2
+  start_show_time: "9:00"
+  end_show_time: "12:00"
+-
+  stid: 20
+  screen_id: 16
+  region_id: 1
+  company_id: 2
+  start_show_time: "12:10"
+  end_show_time: "3:10"
+-
+  stid: 21
+  screen_id: 16
+  region_id: 1
+  company_id: 2
+  start_show_time: "3:20"
+  end_show_time: "6:20"
+-
+  stid: 22
+  screen_id: 17
+  region_id: 1
+  company_id: 2
+  start_show_time: 8
+  end_show_time: 11
+-
+  stid: 23
+  screen_id: 17
+  region_id: 1
+  company_id: 2
+  start_show_time: "11:20"
+  end_show_time: "1:20"
+-
+  stid: 24
+  screen_id: 17
+  region_id: 1
+  company_id: 2
+  start_show_time: "1:30"
+  end_show_time: "3:45"
+-
+  stid: 25
+  screen_id: 21
+  region_id: 1
+  company_id: 1
+  start_show_time: 8
+  end_show_time: 11
+-
+  stid: 26
+  screen_id: 21
+  region_id: 1
+  company_id: 1
+  start_show_time: "11:15"
+  end_show_time: 2
+-
+  stid: 27
+  screen_id: 21
+  region_id: 1
+  company_id: 1
+  start_show_time: "3:00"
+  end_show_time: "6:00"
+-
+  stid: 28
+  screen_id: 22
+  region_id: 1
+  company_id: 1
+  start_show_time: "9:30"
+  end_show_time: "12:00"
+-
+  stid: 29
+  screen_id: 22
+  region_id: 1
+  company_id: 1
+  start_show_time: "12:30"
+  end_show_time: "3:00"
+-
+  stid: 30
+  screen_id: 22
+  region_id: 1
+  company_id: 1
+  start_show_time: "3:30"
+  end_show_time: "6:00"
+-
+  stid: 31
+  screen_id: 24
+  region_id: 3
+  company_id: 11
+  start_show_time: "10:30"
+  end_show_time: "1:00"
+-
+  stid: 32
+  screen_id: 24
+  region_id: 3
+  company_id: 11
+  start_show_time: "2:00"
+  end_show_time: "5:00"
+-
+  stid: 33
+  screen_id: 24
+  region_id: 3
+  company_id: 11
+  start_show_time: "5:30"
+  end_show_time: "8:30"
+-
+  stid: 34
+  screen_id: 25
+  region_id: 7
+  company_id: 11
+  start_show_time: "11:00"
+  end_show_time: "2:00"
+-
+  stid: 35
+  screen_id: 25
+  region_id: 7
+  company_id: 11
+  start_show_time: "2:30"
+  end_show_time: "5:30"
+-
+  stid: 36
+  screen_id: 25
+  region_id: 7
+  company_id: 11
+  start_show_time: "6:00"
+  end_show_time: 9
+# project.ticket_type_master
+-
+  tid: 15
+  com_id: 2
+  region_id: 1
+  screen_id: 16
+  ticket_type: "silver"
+  rate: 100
+  quantity: 100
+-
+  tid: 16
+  com_id: 2
+  region_id: 1
+  screen_id: 16
+  ticket_type: "gold"
+  rate: 200
+  quantity: 100
+-
+  tid: 17
+  com_id: 2
+  region_id: 1
+  screen_id: 16
+  ticket_type: "platinum"
+  rate: 300
+  quantity: 100
+-
+  tid: 18
+  com_id: 1
+  region_id: 1
+  screen_id: 21
+  ticket_type: "gold"
+  rate: 250
+  quantity: 120
+-
+  tid: 19
+  com_id: 1
+  region_id: 1
+  screen_id: 21
+  ticket_type: "silver"
+  rate: 140
+  quantity: 130
+-
+  tid: 20
+  com_id: 1
+  region_id: 1
+  screen_id: 22
+  ticket_type: "gold "
+  rate: 400
+  quantity: 100
+-
+  tid: 21
+  com_id: 1
+  region_id: 1
+  screen_id: 22
+  ticket_type: "silver"
+  rate: 200
+  quantity: 100
+-
+  tid: 22
+  com_id: 11
+  region_id: 3
+  screen_id: 24
+  ticket_type: "executive"
+  rate: 500
+  quantity: 50
+-
+  tid: 23
+  com_id: 11
+  region_id: 3
+  screen_id: 24
+  ticket_type: "normal"
+  rate: 250
+  quantity: 150
+-
+  tid: 24
+  com_id: 11
+  region_id: 7
+  screen_id: 25
+  ticket_type: "executive"
+  rate: 450
+  quantity: 150
+-
+  tid: 25
+  com_id: 11
+  region_id: 7
+  screen_id: 25
+  ticket_type: "normal"
+  rate: 220
+  quantity: 200
+...

@@ -1,0 +1,45 @@
+*
+{
+	
+margin:0px;
+padding:0px;
+}
+body
+{
+		background-image:url(bg2.jpg);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#companytitle
+{
+	padding-top:20px;
+	padding-left:40px;
+	padding-bottom:20px;
+	color: #FFF ;
+	font-size:53px;
+	font-weight:900;
+	text-shadow: #666 2px 2px;
+	opacity:1;
+}
+#companytitle:hover
+{
+opacity:1;
+}
+#home
+{
+	color:#CCC;
+	margin-left:1200;
+	padding-left:5;
+	margin-top:0;
+	font-weight:800;
+	text-decoration:none;
+}
+
+#homediv
+{
+width:	68;
+height:25;
+padding-left:10;
+background-color:#666;
+border-radius:20;
+
+}

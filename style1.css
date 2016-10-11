@@ -1,0 +1,91 @@
+
+*
+{
+	
+margin:0px;
+padding:0px;
+}
+
+body
+{
+	 background-image:url(bg2.jpg);
+	 background-attachment:fixed; 
+	 margin:0x;
+	 padding:0px;
+}
+#login
+{
+	margin-left:730px;
+	
+	margin-right:11px;	
+	
+}
+#login a
+{
+text-decoration:none;	
+color:#900;
+}
+#region
+{
+	float:right;
+}
+#mainContainer
+{
+	background-image:url(img.jpg);
+	background-repeat:repeat;
+	width:960px;
+	height:1400px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#600;
+}
+
+#companytitle
+{
+	padding-top:20px;
+	padding-left:300px;
+	padding-bottom:20px;
+	color: #600 ;
+	font-size:40px;
+	font-weight:900;
+	text-shadow:black 2px 2px;
+}
+
+#menu
+{
+	background-color: #666;
+	margin:0px;
+	padding-left:10px;
+}
+#menu ul <!--this shows that changes to be done only on ul which is the child navigation>
+{
+	 list-style:none;
+	
+	 
+	
+}
+#menu ul li
+{
+	
+	 background-color: black;
+	 margin-top:4px;
+	 width:233px;
+	 float:left;
+	 margin-right:2px;
+	 height:30px;
+	 line-height:30px;
+	 text-align:center;
+	 
+}
+#menu ul li a
+{
+	color: #FFF;
+	display:block;
+	text-decoration:none;
+
+}
+#menu ul li a:hover
+{
+	background-color: #600;
+	border-bottom: #600 4px solid;
+}
